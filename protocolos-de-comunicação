@@ -1,0 +1,62 @@
+tcp - 5 camadas
+osi - 7 camadas
+
+aplicação - interação do usuario com a maquina - dados
+transporte - porta TCP/UDP - 
+rede - IP
+enlace - MAC
+FISICA - sinais
+
+segurança da informação
+
+C - confidencialidade
+I - integridade, modificar dados no meio do caminho
+D - disponibilidade, informação tenque estar disponível
+A - autenticidade, verifica quem o individuo é quem deve ser... principio do não repudio
+
+politica de segurança - troca de senha
+politica de backup - segurança do backup
+
+certificado digital
+-versao e numero de serie
+-dados que identificam a ac(autoridade certificadora)
+-dados que identificam o dono do certificado
+-chave publica do dono od certificado
+-validade do certificado
+-assinatura digital da AC
+
+--COMO FUNCIONA O PROTOCOLO HTTP
+
+ARQUITETURA CLIENT0-SERVER
+BROWSER - CLIENTE - REQUEST HTTP - OBJETOS WEB
+SERVIDOR - RESPONSE HTTP- PROTOCOLO TCP
+
+STATELESS - NÃO GUARDA O ESTADO SERVIDOR
+
+COMUNICAÇÃO PERSISTENTE - CONFERE SE AS INFORMAÇÕES FORAM ENVIADAS E RECEBIDAS
+COMUNICAÇÃO NÃO PERSISTENTE - NÃO CONFERE, MAIS VELOCIDADE 
+
+METODOS:
+GET - requisição do client de alguma informação do servidor
+POST - enviou de informações para o servidor
+
+FORMATOS DE INFORMAÇÃO XML, JASON - ARMAZENAMENTO, TRANSMISSÃO, RECONSTRUÇÃO (SERIALIZAÇÃO)
+
+PARTICULARIDADES HTTP 1.1
+
+TCP - Aperto de maõs 3 vias
+REQUEST = texto ASC II
+VERSÃO, URL, METODO HTTP, TIPO DE CONECÇÃO, AGENTE, PREFERENCIA DO CLIENTE (METODOS GET, POST)
+
+METODO SEGURO - GET APENAS LEITURA
+
+REPONSE
+VERSÃO DO PROTOCOLO, REPOSTA
+
+WebDav - utilizado por devs para trabalhar
+
+
+
+
+
+
